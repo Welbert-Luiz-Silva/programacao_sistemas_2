@@ -1,4 +1,4 @@
-package aula4;
+package aula5;
 
 public class PessoaFisica extends Pessoa {
 
@@ -40,14 +40,15 @@ public class PessoaFisica extends Pessoa {
 		
 		
 	}
-
+	//Imprimindo com ToString
 	@Override
 	public String toString() {
-		return "PessoaFisica [None()=" + getNone() + ", Endereco()=" + getEndereco() + ", cpf=" + cpf
-				+ ", estadoCivil=" + estadoCivil + "]";
+		return "PessoaFisica [None= " + getNone() + ", Endereco " + getEndereco() + ", cpf= " + cpf
+				+ ", estadoCivil= " + estadoCivil + "]";
 	}
 	
-	//Imprimindo com ToString
+
+	
 	
 	
 
